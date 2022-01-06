@@ -25,7 +25,15 @@ button{
 .parent>.card{
     width: 50%;
 }
-
+@media only screen and (min-width:481px) and (max-width:728){.parent{
+    display: flex;
+    flex-direction: column;
+}
+.parent>.card{
+    width: 90%;
+    display: flex; 
+    flex-direction: row;
+    box-shadow: 5px 5px 5px 5px solid red; 
     
-    
+}
 }
